@@ -1,8 +1,8 @@
 /*
  * File:   Test.c
- * Author: alexi
+ * Author: Wolfverus
  * PIC18
- * Created on 8 July, 2020, 10:26 AM
+ * Created on 8 July, 2020
  */
 
 
