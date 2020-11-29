@@ -1,10 +1,3 @@
-/*
- * File:   keypad utilities.c
- *
- * Created on 13 January, 2016, 10:46 AM
- */
-
-
 #include <xc.h>
 
 
