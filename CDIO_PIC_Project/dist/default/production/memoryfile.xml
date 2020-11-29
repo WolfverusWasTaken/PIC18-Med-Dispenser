@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\CDIO_micro_try3.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>28672</length>
+      <used>4425</used>
+      <free>24247</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>375</used>
+      <free>1673</free>
+    </memory>
+  </executable>
+</project>
