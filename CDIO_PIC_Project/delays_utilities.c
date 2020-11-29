@@ -1,9 +1,3 @@
-/*
-* File:   delays_utilities.c
-*
-* Created on 13 January, 2016, 1:31 PM
-*/
-
 #include <xc.h>
 #define _XTAL_FREQ 48000000
 
