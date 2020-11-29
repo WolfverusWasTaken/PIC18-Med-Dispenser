@@ -1,11 +1,3 @@
-/*
- * File:   lcd utilities.c
- *
- * Created on 13 January, 2016, 10:28 AM
- */
-
-//#include "LCD.H"	// Include file is located in the project directory
-
 #include <xc.h>
 #define _XTAL_FREQ 48000000
 #define LCD_RS PORTDbits.RD6    //  Register Select on LCD
@@ -106,13 +98,13 @@ void lcd_init(void)
     lcd_write_cmd(0x33);
     lcd_write_cmd(0x32);
       
-    lcd_write_cmd(0x28);		// 001010xx – Function Set instruction
+    lcd_write_cmd(0x28);		// 001010xx â€“ Function Set instruction
     							// DL=0 :4-bit interface,N=1 :2 lines,F=0 :5x7 dots
    
-    lcd_write_cmd(0x0E);		// 00001110 – Display On/Off Control instruction
+    lcd_write_cmd(0x0E);		// 00001110 â€“ Display On/Off Control instruction
     							// D=1 :Display on,C=1 :Cursor on,B=0 :Cursor Blink on
    
-    lcd_write_cmd(0x06);		// 00000110 – Entry Mode Set instruction
+    lcd_write_cmd(0x06);		// 00000110 â€“ Entry Mode Set instruction
     							// I/D=1 :Increment Cursor position
    								// S=0 : No display shift
    
